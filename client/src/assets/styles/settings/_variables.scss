@@ -1,0 +1,52 @@
+/*-------\
+| Colors |
+\-------*/
+// https://coolors.co/fbfbf2-e5e6e4-cfd2cd-a6a2a2-847577
+$font-base: #333;
+$color-primary: #a6a2a2;
+$color-secondary: #cfd2cd;
+$color-platinum: #e5e6e4;
+$color-rocket-metallic: #847577;
+$color-floral-white: #fbfbf2;
+
+/*----------\
+| Font Size |
+\----------*/
+$font-size-base: 1rem !default;
+$font-size-xsmaller: $font-size-base * 0.5;
+$font-size-xsmall: $font-size-base * 0.625;
+$font-size-smaller: $font-size-base * 0.75;
+$font-size-small: $font-size-base * 0.875;
+$font-size-normal: $font-size-base * 1;
+$font-size-large: $font-size-base * 1.125;
+$font-size-larger: $font-size-base * 1.25;
+$font-size-xlarge: $font-size-base * 1.375;
+$font-size-xlarger: $font-size-base * 1.5;
+
+/*--------\
+| Spacing |
+\--------*/
+$spacer: 1rem !default;
+$spacers: (
+  0: 0,
+  1: $spacer * 0.25,
+  2: $spacer * 0.5,
+  3: $spacer * 0.75,
+  4: $spacer * 1,
+  5: $spacer * 1.5,
+  6: $spacer * 2,
+  7: $spacer * 2.5,
+  8: $spacer * 3,
+  9: $spacer * 3.5,
+  10: $spacer * 4,
+  11: $spacer * 4.5,
+  12: $spacer * 5,
+  13: $spacer * 5.5,
+  14: $spacer * 6,
+  15: $spacer * 6.5,
+  16: $spacer * 7,
+  17: $spacer * 7.5,
+  18: $spacer * 8,
+  19: $spacer * 8.5,
+  20: $spacer * 9,
+);

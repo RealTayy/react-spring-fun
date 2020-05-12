@@ -1,0 +1,33 @@
+@import "../index.scss";
+
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  color: $color-floral-white;
+  background-color: $color-primary;
+  padding: 0 map-get($map: $spacers, $key: 3);
+  &__logo {
+    display: flex;
+    align-items: center;
+    &-image {
+      width: 100px;
+      margin-right: map-get($map: $spacers, $key: 3);
+    }
+    &-text {
+      font-size: $font-size-xlarge;
+      line-height: 1;
+    }
+  }
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    list-style: none;
+    &-item {
+      font-family: $font-family-raleway;
+      text-transform: uppercase;
+      line-height: 1;
+      text-decoration: none;
+      padding: map-get($map: $spacers, $key: 2) map-get($map: $spacers, $key: 3);
+    }
+  }
+}

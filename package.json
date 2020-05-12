@@ -1,0 +1,32 @@
+{
+  "name": "HerokuNodeReactTS-v1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "per-env",
+    "start:development": "concurrently \"npm run client\" \"npm run server\"",
+    "start:production": "npm run server",
+    "install": "concurrently \"cd client && npm install\" \"cd server && npm install\"",
+    "client": "cd client && npm run start",
+    "server": "cd server && npm run start",
+    "heroku-postbuild": "npm run build",
+    "build": "concurrently \"cd client && npm run build\" \"cd server && npm run build\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RealTayy/HerokuNodeReactTS-v1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RealTayy/HerokuNodeReactTS-v1/issues"
+  },
+  "homepage": "https://github.com/RealTayy/HerokuNodeReactTS-v1#readme",
+  "dependencies": {
+    "concurrently": "^5.2.0",
+    "mobx-react-devtools": "^6.1.1",
+    "per-env": "^1.0.2"
+  }
+}
