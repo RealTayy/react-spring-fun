@@ -1,11 +1,7 @@
 import { Home } from './Home';
-import { AddFriend } from './AddFriend';
-import { Friends } from './Friends';
-import { FriendsDetail } from './FriendsDetail';
+import { Demo } from './Demo';
 
 export {
   Home,
-  AddFriend,
-  Friends,
-  FriendsDetail,
+  Demo
 }

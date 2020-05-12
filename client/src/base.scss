@@ -1,8 +1,10 @@
 @import "./index.scss";
+// TODO: Export to BP code
 
 html {
   font-family: $font-family-roboto-slab;
   font-size: $font-size-base;
+  line-height: 1.5rem;
 }
 
 a:link {
