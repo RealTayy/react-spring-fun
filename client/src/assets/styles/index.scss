@@ -1,4 +1,3 @@
-// TODO: Export to BP code
 // Functions
 @import "functions/functions";
 
@@ -12,4 +11,4 @@
 @import "settings/variables";
 
 // Helpers
-// Helpers get imported in App.scss to avoid duplicate CSS
+// Helpers get imported in base.scss to avoid duplicate CSS

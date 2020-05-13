@@ -2,24 +2,23 @@
 | Colors |
 \-------*/
 // Color Scheme
-// https://coolors.co/160f29-413c58-ebcc96-ffdc5d-e3ac60
+// https://coolors.co/160f29-413c58-e3ac60-ebc275-ebcc96
 $color-dark-purple: #160f29;
-$color-english-violet: #413c58;
+$color-old-lavender: #676279;
 $color-earth-yellow: #ebcc96;
+$color-gold-crayola: #EBC275;
 $color-deep-champagne: #ebcc96;
-$color-mustard: #ffdc5d;
 
 // Base colors
-$color-bg: $color-dark-purple;
-$color-font-primary: $color-earth-yellow;
-$color-font-secondary: $color-english-violet;
-$color-primary: $color-mustard;
-$color-secondary: $color-deep-champagne;
+$color-background:     $color-dark-purple;
+$color-font-primary:   $color-old-lavender;
+$color-font-secondary: $color-earth-yellow;
+$color-primary:        $color-gold-crayola;
+$color-secondary:      $color-deep-champagne;
 
 /*----------\
 | Font Size |
 \----------*/
-// TODO: Export to BP code
 $font-size-base:     1rem !default;
 $font-scale:         1.33333;
 $font-scale-neg :    1 / $font-scale;
@@ -36,27 +35,27 @@ $font-size-xlarger:  $font-size-base * pow($font-scale, 4);
 /*--------\
 | Spacing |
 \--------*/
-$spacer: 1rem !default;
+$base-spacer: 1rem !default;
 $spacers: (
-  0: 0,
-  1: $spacer * 0.25,
-  2: $spacer * 0.5,
-  3: $spacer * 0.75,
-  4: $spacer * 1,
-  5: $spacer * 1.5,
-  6: $spacer * 2,
-  7: $spacer * 2.5,
-  8: $spacer * 3,
-  9: $spacer * 3.5,
-  10: $spacer * 4,
-  11: $spacer * 4.5,
-  12: $spacer * 5,
-  13: $spacer * 5.5,
-  14: $spacer * 6,
-  15: $spacer * 6.5,
-  16: $spacer * 7,
-  17: $spacer * 7.5,
-  18: $spacer * 8,
-  19: $spacer * 8.5,
-  20: $spacer * 9,
+  0:  0,
+  1:  $base-spacer * 0.25,
+  2:  $base-spacer * 0.5,
+  3:  $base-spacer * 0.75,
+  4:  $base-spacer * 1,
+  5:  $base-spacer * 1.5,
+  6:  $base-spacer * 2,
+  7:  $base-spacer * 2.5,
+  8:  $base-spacer * 3,
+  9:  $base-spacer * 3.5,
+  10: $base-spacer * 4,
+  11: $base-spacer * 4.5,
+  12: $base-spacer * 5,
+  13: $base-spacer * 5.5,
+  14: $base-spacer * 6,
+  15: $base-spacer * 6.5,
+  16: $base-spacer * 7,
+  17: $base-spacer * 7.5,
+  18: $base-spacer * 8,
+  19: $base-spacer * 8.5,
+  20: $base-spacer * 9,
 );

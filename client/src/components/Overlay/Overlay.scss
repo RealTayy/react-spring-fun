@@ -1,0 +1,17 @@
+@import "../index.scss";
+
+.Overlay {
+  background: transparent;
+  pointer-events: none;
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  padding: map-get($map: $spacers, $key: 3);
+  &__header {
+    &-image {
+    }
+    &-text {
+    }
+  }
+}
